@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/', methods = ["GET", "POST"])
 def index():
     if request.method =="GET":
-        age = 11
+        age = 8
         subject = "photosynthesis"
         prompt = f"""
             Write a short, fun educational story for a {age}-year old student learning about {subject}.
